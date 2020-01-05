@@ -1,8 +1,11 @@
+let showColorCode = document.getElementById("showColorCode");
+
 const btnColor = document.querySelector(".btnColor");
 btnColor.addEventListener("click",function(){
     
-    let myColor = "rgb("+random(255)+","+random(255)+","+random(255)+")";
+    let myColor = "RGB("+random(255)+","+random(255)+","+random(255)+")";
     console.log(myColor);
+    showColorCode.innerHTML = myColor;
     document.body.style.backgroundColor = myColor;
 })
 
