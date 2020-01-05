@@ -17,8 +17,10 @@ body {
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
   overflow: auto;}
 
+/*
 button {
   border: none;}
+*/
 
 /********** LOGO **********/
 h1 {
@@ -57,19 +59,8 @@ p {
 a {
     text-decoration: none;}
 
+
 button {
   font-size: 90%;
   text-align: left;
   text-transform: uppercase;}
-
-  /*****************  No JS ***************/
-#billboard {text-align: center;}
-.js-warning {display: none;}
-
-.no-js .js-warning {
-  display: block;
-  border: 3px solid #fff;
-  text-align: center;
-  background-color: #fff;
-  color: #db5391;
-  padding: 10px;}

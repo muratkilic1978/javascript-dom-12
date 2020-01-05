@@ -16,6 +16,10 @@
   font-size: 1.6rem;
 }
 
+.btnColor:hover {
+  background-color: #0021ba; /* darkblue */
+}
+
 #showColorCode {
   background-color: #008CBA; /* blue */
   color: seashell;
